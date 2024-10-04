@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+@font-face {
+  font-family: "eleg";
+  src: url(/Assets/CSS/Fonts/runalto.otf);
+}
+body {
+  font-family: "Playfair Display", serif;
+  margin: 0 auto;
+}
+
+.navbar {
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.navbar-brand {
+  font-size: 1.8em;
+  color: #9c774a !important;
+  font-weight: 600;
+  margin-left: -20px;
+}
+.navbar .navbar-nav .nav-link {
+  font-size: 1.5em;
+  color: #9c774a !important;
+  position: relative;
+  text-decoration: none;
+}
+.navbar .navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: #9c774a;
+  transition: width 0.3s ease-in-out;
+}
+.navbar .navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #9c774a !important;
+}
+
+.landingPage {
+  display: flex;
+  margin-top: 75px;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 140px;
+  padding: 30px 0;
+}
+.landingPage h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #9c774a;
+}
+.landingPage p {
+  font-size: 22px;
+  margin: 20px 0;
+}
+.landingPage .button {
+  background-color: #9c774a;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 22px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: padding 0.3s ease-in-out;
+}
+.landingPage .button:hover {
+  padding: 25px 45px;
+}
+.landingPage .mainRight img {
+  height: 600px;
+  width: 600px;
+}
+
+.stats {
+  display: flex;
+  background-color: #9c774a;
+  padding-top: 20px;
+  text-align: center;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.stats div {
+  padding: 30px;
+}
+.stats div h3 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+.stats div p {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.footer {
+  margin-top: 300px;
+  background-color: #f8f9fa;
+}
+.footer a {
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+.footer a:hover {
+  color: #9c774a;
+}
+.footer i {
+  font-size: 28px;
+  transition: color 0.3s ease-in-out;
+  text-align: left;
+}
+.footer i:hover {
+  color: #9c774a;
+}
+.footer h5 {
+  text-align: left;
+  margin-bottom: 15px;
+  font-size: 2rem;
+  color: #9c774a;
+  font-weight: bold;
+}
+.footer p {
+  text-align: left;
+  margin: 0 0 20px;
+  font-size: 1.3rem;
+}
+.footer ul {
+  padding-left: 0;
+  list-style-type: none;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.footer ul li {
+  margin-bottom: 10px;
+}
+.footer .form-group {
+  margin-top: 20px;
+}
+.footer input[type=email] {
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 1.5rem;
+}
+.footer button {
+  background-color: #9c774a;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 1.2rem;
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+.footer button:hover {
+  background-color: #765022;
+}/*# sourceMappingURL=styles.css.map */
